@@ -69,7 +69,7 @@ Zastąp przykładowe wartości własnymi. Możesz użyć adresu noreply dostępn
 
 `commit` nie oznacza `push`. `pull request` nie jest poleceniem `git pull`.
 
-## Zadanie 1 — Własne repozytorium zadania (10 minut)
+## Zadanie 1 — Własne repozytorium zadania
 **Pracuj wyłącznie w swoim repozytorium zadania, nie w szablonie prowadzącego.**
 
 Utwórz własną kopię bezpośrednio na GitHub:
@@ -97,7 +97,7 @@ Otwórz ten katalog w IDE. Nie twórz nowego projektu poza nim. Pliki źródłow
 
 Przy dostępie do prywatnego repozytorium lub przy pierwszym push może pojawić się logowanie. Użyj przeglądarkowego logowania menedżera poświadczeń lub innej metody wskazanej przez prowadzącego. Hasło konta nie służy do uwierzytelniania Git przez HTTPS. Nie wpisuj tokenów do plików projektu ani do URL zapisywanego w repozytorium.
 
-## Zadanie 2 — Gałąź i lokalne uruchomienie (15 minut)
+## Zadanie 2 — Gałąź i lokalne uruchomienie
 Utwórz gałąź roboczą:
 ```bash
 git switch -c lab00-setup
@@ -129,7 +129,7 @@ Hello from Java!
 
 `build/` przechowuje pliki wynikowe. `.gitignore` sprawia, że nie są dodawane do historii. Po uruchomieniu sprawdź `git status`: pliki binarne i `.class` nie powinny być proponowane do commita.
 
-## Zadanie 3 — Zmiana, diff, commit i push (15 minut)
+## Zadanie 3 — Zmiana, diff, commit i push
 1. Zmień tekst w obu programach, np. `Hello from C++!` na `Hello from C++! Author: student123` i analogicznie w Java. Użyj loginu lub pseudonimu; nie musisz wpisywać danych osobowych.
 2. Skompiluj i uruchom ponownie oba programy. Sprawdź zmieniony wynik.
 3. Uzupełnij `STUDENT.md`: login, środowisko, wersje narzędzi i krótkie odpowiedzi. Nie potrzebujesz osobnego sprawozdania.
@@ -146,7 +146,7 @@ Hello from Java!
 
 Git zapisuje pliki, nie sam wynik uruchomienia. Zmiana widoczna lokalnie nie jest jeszcze widoczna dla prowadzącego przed push.
 
-## Zadanie 4 — Pull request i automatyczna kontrola (15 minut)
+## Zadanie 4 — Pull request i automatyczna kontrola 
 Na GitHub otwórz **Pull requests → New pull request** (lub **Compare & pull request**).
 
 Ustaw **base: main**, **compare: lab00-setup**, w obrębie TWOJEGO repozytorium. Nie otwieraj PR do szablonu prowadzącego.
@@ -165,7 +165,7 @@ git pull --ff-only origin main
 ```
 Sprawdź, że w lokalnej gałęzi `main` są Twoje zmiany. Zachowaj link do scalonego PR w `STUDENT.md` w następnym zadaniu.
 
-## Zadanie 5 — Rozpoznanie i poprawienie błędu (15 minut)
+## Zadanie 5 — Rozpoznanie i poprawienie błędu 
 Z aktualnej gałęzi `main` utwórz nową gałąź:
 ```bash
 git switch -c lab00-debug
@@ -198,7 +198,7 @@ git switch -c lab00-debug
 
 Nie scalaj błędnego kodu do `main`. Historia gałęzi pozwala zobaczyć zarówno błąd, jak i poprawkę; wcześniejszy czerwony wynik nie blokuje zaliczenia, jeśli finalny kod działa.
 
-## Zadanie 6 — Zaliczenie (10 minut)
+## Zadanie 6 — Zaliczenie
 Przekaż prowadzącemu link do swojego repozytorium w sposób podany na zajęciach. Jeśli repozytorium jest prywatne, zapewnij prowadzącemu dostęp: w swoim repozytorium otwórz **Settings → Collaborators**, wybierz **Add people** i zaproś jego dokładny login GitHub podany na zajęciach. Prowadzący musi zaakceptować zaproszenie. Dla publicznego repozytorium do odczytu wystarczy link.
 
 ### Lista kontrolna
