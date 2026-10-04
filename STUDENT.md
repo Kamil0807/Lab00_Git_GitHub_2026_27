@@ -6,7 +6,7 @@
 - Wersja Git: 2.56.0.windows.1
 - Wersja kompilatora C++: g++.exe (Rev13, Built by MSYS2 project) 15.2.0
 - Wersje java i javac: java version "25" 2025-09-16 LTS; javac 25
-- Link do pierwszego PR (uzupełnij w zadaniu 5): ...
+- Link do pierwszego PR (uzupełnij w zadaniu 5): https://github.com/Kamil0807/Lab00_Git_GitHub_2026_27/pull/1
 
 ## Uruchomienie lokalne
 Wynik programu C++:
