@@ -10,24 +10,22 @@
 
 ## Uruchomienie lokalne
 Wynik programu C++:
-```text
-...
-```
+Hello from C++! Author: Kamil0807
 Wynik programu Java:
-```text
-...
-```
+Hello from Java! Author: Kamil0807
 
 ## Błąd i poprawka (zadanie 5)
-- Krótki fragment komunikatu błędu i numer linii: ...
-- Przyczyna oraz sposób naprawy: ...
-- Commit z błędem (SHA lub link): ...
-- Czy Actions pokazały błąd, a po naprawie sukces? ...
+- Krótki fragment komunikatu błędu i numer linii: cpp/main.cpp:5:61: error: expected ';' before 'return'
+- Przyczyna oraz sposób naprawy: Celowe usunięcie średnika ; na końcu instrukcji wypisującej tekst w cpp/main.cpp. Sposób naprawy: ponowne dopisanie średnika na końcu linii 5.
+- Commit z błędem (SHA lub link): 30e7b24
+- Czy Actions pokazały błąd, a po naprawie sukces? Tak, na gałęzi lab00-debug po wprowadzeniu błędu Actions zgłosiło błąd, a po wysłaniu poprawki testy zakończyły się sukcesem
 
 ## Krótkie odpowiedzi
-1. Co różni commit od push? ...
-2. Dlaczego po scaleniu PR wykonuję lokalnie pull? ...
-3. Co potwierdza zielony wynik naszego CI, a czego nie potwierdza? ...
+1. Co różni commit od push? Commit zapisuje zmiany lokalnie w historii Git na komputerze. Push wysyła te zapisane lokalnie commity do zdalnego repozytorium na GitHubie.
+2. Dlaczego po scaleniu PR wykonuję lokalnie pull? Scalenie PR następuje na serwerach GitHuba, więc lokalna gałąź main na komputerze nie ma jeszcze tych zmian. Komenda git pull pobiera i aktualizuje lokalne repozytorium o najnowszą wersję z serwera.
+3. Co potwierdza zielony wynik naszego CI, a czego nie potwierdza? 
+Potwierdza: Że kod bez błędów kompiluje się i prawidłowo uruchamia w czystym środowisku testowym (Linux) na GitHubie.
+Nie potwierdza: Poprawności konfiguracji środowiska na lokalnym komputerze studenta ani pełnej poprawności logicznej całego programu.
 
 ## Ewentualne problemy środowiska
-Brak / opis problemu i sposób rozwiązania: ...
+Brak / opis problemu i sposób rozwiązania: Brak
